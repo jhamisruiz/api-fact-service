@@ -1,0 +1,35 @@
+# Dependencias de Go
+/bin/
+/pkg/
+/vendor/
+
+# Archivos binarios generados
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Configuración del entorno
+.env
+.env.*
+
+# Directorios del IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# Cobertura de pruebas
+coverage.out
+
+# Otros archivos temporales
+*.tmp
+*.temp
